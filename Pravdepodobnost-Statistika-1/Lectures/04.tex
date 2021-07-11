@@ -165,8 +165,8 @@
         \item $var(X) = \lambda$
     \end{enumerate}
     \[P(X=k) = \frac{\lambda^k}{k!}e^{-\lambda}\]
-    \[\mathbb{E}(X) = \sum k \frac{\lambda^k}{k!}e^{-\lambda} = 1\]
-    \[\lambda \sum \frac{\lambda^{k-1}}{(k-1)!}e^{-\lambda} = \lambda\]    
+    \[\mathbb{E}(X) = \sum_{k=0}^{\infty} k \frac{\lambda^k}{k!}e^{-\lambda}\]
+    \[\lambda \sum_{k=1}^{\infty} \frac{\lambda^{k-1}}{(k-1)!}e^{-\lambda} = \lambda * 1 = \lambda\]    
 \end{theorem}
 
 \subsection{Náhodné vektory}
